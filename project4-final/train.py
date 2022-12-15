@@ -17,9 +17,9 @@ from helper.features import generate_features
 from helper.preprocess import merge_data, process_data, read_dataframes, add_beer_category
 from helper.visual import plot_confusion_matrix, plot_feature_importance
 
-BEER_DS_URI = "azureml://subscriptions/8bb63f70-46cb-475d-ae57-2d91c46da259/resourcegroups/ga-ds/workspaces/ga-ds-ws/datastores/workspaceblobstore/paths/UI/2022-12-01_124858_UTC/beers.csv"
-BREWERY_DS_URI = "azureml://subscriptions/8bb63f70-46cb-475d-ae57-2d91c46da259/resourcegroups/ga-ds/workspaces/ga-ds-ws/datastores/workspaceblobstore/paths/UI/2022-12-01_125130_UTC/breweries.csv"
-STATE_DS_URI = "azureml://subscriptions/8bb63f70-46cb-475d-ae57-2d91c46da259/resourcegroups/ga-ds/workspaces/ga-ds-ws/datastores/workspaceblobstore/paths/UI/2022-12-01_140348_UTC/us census bureau regions and divisions.csv"
+BEER_DS_URI = "Path to CSV"
+BREWERY_DS_URI = "Path to CSV"
+STATE_DS_URI = "Path to CSV"
 
 # def compute_metrics(
 #     y:np.array,
